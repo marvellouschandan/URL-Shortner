@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>URL Shortner</title>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	crossorigin="anonymous">
+<link
+	href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css"
+	rel="stylesheet" crossorigin="anonymous">
+<style>
+body {
+	background-color: #3e3e3e;
+	color: white;
+}
+</style>
+</head>
+<body class="vsc-initialized">
+	<div class="container">
+		<form class="form-signin">
+			<h2 class="form-signin-heading">My URL Shortner</h2>
+			<!-- <div class="alert alert-success" role="alert">You have been
+				signed out</div> -->
+			<p>
+				<label for="url" class="sr-only">URL</label> <input
+					type="text" id="url" name="url" class="form-control"
+					placeholder="URL" required="" autofocus="">
+			</p>
+			<p>
+				<label for="choice" class="sr-only">Choice URL (Optional)</label> <input
+					type="text" id="choice" name="choice" class="form-control"
+					placeholder="Choice URL (Optional)" required="">
+			</p>
+			<button class="btn btn-lg btn-primary btn-block" type="button">Shorten URL</button>
+			<br>
+		</form>
+	</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</html>
